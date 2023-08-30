@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .Main {
+    font-family: "Trirong", serif;
+    font-weight: 600;
+  }
+  .Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Box {
+    min-width: 100px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .name {
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 130px;
+    text-align: left;
+  }
+  
+  .Student {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+  }
+  .firstinput > input {
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+  }
+  
+  /* alternative */
+  
+  .Date > input {
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
+    min-height: 30px;
+  }
+  
+  .gender {
+    border: 1px solid #959595;
+    min-width: 170px;
+    min-height: 30px;
+    text-align: center;
+  }
+  
+  .addressname {
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 130px;
+  }
+  .aname {
+    margin-top: 20px;
+    padding: 2px;
+  }
+  
+  .address > textarea {
+    min-height: 60px;
+  }
+  
+  .Summit {
+    margin: 20px;
+    gap: 10px;
+  }
+  
+  .state > select {
+    min-height: 20px;
+    max-width: 170px;
+    text-align: left;
+    padding: 3px;
+  }
+  
+  .city {
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 130px;
+    text-align: left;
+    padding: 1px;
+  }
+  
+  .Cityinput > input {
+    min-height: 20px;
+  }
+  
+  .Summit > button {
+    width: 100%;
+    text-align: center;
+    min-height: 30px;
+  }
+  
+  .summit {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+  
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .summit:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
